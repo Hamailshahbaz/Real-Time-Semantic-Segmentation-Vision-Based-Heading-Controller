@@ -43,7 +43,7 @@ def train_model():
 
     best_miou = 0.0
 
-    # 4. Training Loop
+    # 4. Training & Validation Loop
     for epoch in range(NUM_EPOCHS):
         # --- TRAINING PHASE ---
         model.train()
