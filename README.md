@@ -1,5 +1,5 @@
 # Real Time Semantic Segmentation and Vision Based Heading Controller
-This repository features a robust, real-time autonomous navigation system designed for campus environments. Leveraging the BiSeNet V2 (Bilateral Segmentation Network) architecture, the system achieves high-precision semantic segmentation to identify navigable paths, pedestrians, and specific road features like speed breakers.
+This repository features a robust, real-time autonomous navigation system designed for campus environments. Leveraging the BiSeNet V1 architecture, the system achieves high-precision semantic segmentation to identify navigable paths, pedestrians, and specific road features like speed breakers.
 
 The model was trained to a peak pixel-wise accuracy of 98.82% on a localized campus dataset, ensuring reliable navigation under specific domain constraints.
 
@@ -38,8 +38,8 @@ Robot-Navigation-BiSeNet/
 └── README.md                       <-- Project documentation
 ```
 ## Performance Metrics
-- Accuracy: 98.82% (Pixel-wise accuracy on unseen campus test frames).
-- Architecture: BiSeNet V2 with a ResNet-18 backbone for a balance between inference speed and feature extraction depth.
+- Accuracy: 93.82% (Pixel-wise accuracy on unseen campus test frames) and 85 mIoU.
+- Architecture: BiSeNet V1 with a ResNet-18 backbone for a balance between inference speed and feature extraction depth.
 - Frameworks: PyTorch, OpenCV, NumPy.
 
 ## Installation & Usage
