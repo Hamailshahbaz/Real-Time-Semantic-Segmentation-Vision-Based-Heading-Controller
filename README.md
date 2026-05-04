@@ -24,9 +24,9 @@ The repository is structured for maintainability and scalability:
 Robot-Navigation-BiSeNet/
 ```text
 ├── weights/
-│   └── bisenet_v2_final_best.pth   <-- Store your trained model here
+│   └── bisenet_v2_final_best.pth   <-- Best trained model
 ├── data/
-│   └── camera_calibration.npz      <-- Store calibration results here
+│   └── camera_calibration.npz      <-- Calibration results
 ├── src/
 │   ├── __init__.py
 │   ├── utils.py                   <-- Calibration and math helper functions
