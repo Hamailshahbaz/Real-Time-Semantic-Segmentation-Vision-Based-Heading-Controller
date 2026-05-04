@@ -1,7 +1,7 @@
 # Real Time Semantic Segmentation and Vision Based Heading Controller
 This repository features a robust, real-time autonomous navigation system designed for campus environments. Leveraging the BiSeNet V1 architecture, the system achieves high-precision semantic segmentation to identify navigable paths, pedestrians, and specific road features like speed breakers.
 
-The model was trained to a peak pixel-wise accuracy of 98.82% on a localized campus dataset, ensuring reliable navigation under specific domain constraints.
+The model was trained to a peak pixel-wise accuracy of 93.82% on a localized campus dataset, ensuring reliable navigation under specific domain constraints.
 
 ## Project Overview
 
