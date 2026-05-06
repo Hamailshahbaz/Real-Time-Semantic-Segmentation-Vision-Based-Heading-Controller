@@ -53,7 +53,7 @@ git clone https://github.com/ooooverflow/BiSeNet.git
 ```
 pip install -r requirements.txt
 ```
-**3. IDownload BiSeNet Weights**
+**3. Download BiSeNet Weights**
 ```
 # Install Git LFS (Ubuntu/Debian)
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
