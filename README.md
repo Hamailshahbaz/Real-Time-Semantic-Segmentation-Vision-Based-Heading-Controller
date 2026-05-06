@@ -46,6 +46,7 @@ Robot-Navigation-BiSeNet/
 **1. Clone the Repository**
 ```
 git clone https://github.com/Hamailshahbaz/Real-Time-Semantic-Segmentation-Vision-Based-Heading-Controller.git
+git clone https://github.com/ooooverflow/BiSeNet.git
 ```
 **2. Install Dependencies**
 ```
