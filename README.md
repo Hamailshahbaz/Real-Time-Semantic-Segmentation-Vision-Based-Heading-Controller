@@ -46,11 +46,22 @@ Robot-Navigation-BiSeNet/
 **1. Clone the Repository**
 ```
 git clone https://github.com/Hamailshahbaz/Real-Time-Semantic-Segmentation-Vision-Based-Heading-Controller.git
+cd Real-Time-Semantic-Segmentation-Vision-Based-Heading-Controller
 git clone https://github.com/ooooverflow/BiSeNet.git
 ```
 **2. Install Dependencies**
 ```
 pip install -r requirements.txt
+```
+**3. IDownload BiSeNet Weights**
+```
+# Install Git LFS (Ubuntu/Debian)
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+
+# Pull the weights
+git lfs install
+git lfs pull
 ```
 **3. Run the Demonstration**
 To process a video and generate the navigation overlay:
