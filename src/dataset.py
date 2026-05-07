@@ -6,7 +6,7 @@ import torch
 import numpy as np
 
 class LabeledRoadDataset(Dataset):
-    def __init__(self, root_dir, target_size=(288, 512)):
+    def __init__(self, root_dir, target_size=(360, 640)):
         self.root_dir = root_dir
         # Exactly as her: Identify images first
         self.images = sorted([f for f in os.listdir(root_dir) if f.endswith('.jpg') and '_mask' not in f])

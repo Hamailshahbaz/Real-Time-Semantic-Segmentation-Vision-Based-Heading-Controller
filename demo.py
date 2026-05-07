@@ -29,12 +29,12 @@ model.load_state_dict(torch.load('weights/bisenet_best.pth', map_location=device
 model.eval()
 
 # 3. RUN VIDEO 
-video_path = 'data/output1.mp4' 
+video_path = 'data/output.mp4' 
 cap = cv2.VideoCapture(video_path)
 
 # Prepare Video Writer
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-out = cv2.VideoWriter('final_navigation_demo1.mp4', fourcc, 30.0, (1280, 360))
+out = cv2.VideoWriter('final_navigation_demo.mp4', fourcc, 30.0, (1280, 360))
 
 print("Starting Video Generation...")
 
@@ -99,4 +99,4 @@ while cap.isOpened():
 
 cap.release()
 out.release()
-print("Success! final_navigation_demo1.mp4 has been created.")
+print("Success! final_navigation_demo.mp4 has been created.")
